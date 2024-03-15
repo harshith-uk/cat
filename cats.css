@@ -1,8 +1,12 @@
+main{
+    /* width: 100%; */
+}
+
 h1{
     text-align:center;
     font-size: x-large;
     align-items: center;
-    color: white;
+    color: #ffc93c;
 }
 h2{
     text-align: center;
@@ -26,9 +30,12 @@ button:hover{
 
 }
 .information{
-    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
     border: 5px bold white;
-    margin: 10px 40% auto;
+    margin: 10px 30% auto;
 }
 img{
     display: flex;
@@ -39,8 +46,11 @@ form{
 #credits{
     text-align: center;
 }
-.credits{
+.credits{   
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: auto 30% auto 30%;
 }
 a{
