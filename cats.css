@@ -4,16 +4,23 @@ main{
 
 h1{
     text-align:center;
-    font-size: x-large;
+    font-size: xx-large;
     align-items: center;
-    color: #ffc93c;
+    color: #222831;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fdffcd;
 }
 h2{
     text-align: center;
+    font-size: larger;
+}
+h3{
+    font-size: medium;
 }
 body{
     color: #ffc93c;
     background-color: #222831;
+    font-family: Verdana,Tahoma, sans-serif;
 }
 button{
     border: 5px rgb(246, 244, 248) bold;
