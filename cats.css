@@ -1,0 +1,52 @@
+h1{
+    text-align:center;
+    font-size: x-large;
+    align-items: center;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+body{
+    color: #ffc93c;
+    background-color: #222831;
+}
+button{
+    border: 5px rgb(246, 244, 248) bold;
+    border-radius: 15px;
+    color: #ffc93c;
+    text-decoration-color: aquamarine;
+    background-image: linear-gradient(#233142,#f95959);
+}
+button:hover{
+    box-shadow: 1px 2px 10px #ffc93c ;
+    cursor: pointer;
+    transition: color ease-in-out 1s;
+
+
+}
+.information{
+    text-align: center;
+    border: 5px bold white;
+    margin: 10px 40% auto;
+}
+img{
+    display: flex;
+}
+form{
+    text-align: center;
+}
+#credits{
+    text-align: center;
+}
+.credits{
+    display: flex;
+    margin: auto 30% auto 30%;
+}
+a{
+    color:crimson;
+    text-decoration: none;
+}
+a:hover{
+    color: #f95959;
+}
